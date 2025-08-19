@@ -18,7 +18,7 @@ default = []
 serde = ["dep:serde", "egui/serde"]
 
 [dependencies]
-egui = { version = "0.32", default-features = false }
+egui = { version = "0.32", default-features = false, git = "https://github.com/pindash-io/egui.git", branch = "accesskit" }
 serde = { version = "1", optional = true, features = ["derive"] }
 
 duplicate = "2.0"
